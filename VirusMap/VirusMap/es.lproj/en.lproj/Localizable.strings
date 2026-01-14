@@ -1,0 +1,152 @@
+/* 
+  Localizable.strings
+  VirusMap
+
+  Created by Agent.
+*/
+
+// Detail Views
+"high_risk" = "High Risk";
+"moderate_risk" = "Moderate Risk";
+"high_activity" = "High Activity";
+"moderate_activity" = "Moderate Activity";
+"total_cases_label" = "Total Cases";
+"incidence_rate" = "Incidence Rate";
+"population" = "Population";
+"diagnosis_breakdown" = "Diagnosis Breakdown";
+"no_diagnosis_data" = "No specific diagnosis data available.";
+"active_cases_label" = "Active Cases";
+"daily_cases_label" = "daily cases";
+"total_positives" = "Total Positives";
+"risk_score" = "Risk Score";
+"virus_breakdown" = "Virus Breakdown";
+"no_virus_data" = "No specific virus data available.";
+"age_distribution" = "Age Distribution";
+"trend_for_group" = "Trend for %@ (Last 3 Months)";
+"overall_trend" = "Overall Trend (Last 3 Months)";
+"current_period" = "Current Period";
+"previous_period" = "Previous Period";
+"net_change" = "Net Change";
+"since_last_period" = "Since last period";
+"total_active_cases" = "Total Active Cases";
+"trend_analysis" = "Trend Analysis";
+"selected_date" = "Selected Date";
+"historical_avg" = "Historical Avg";
+"per_100k" = "per 100k";
+
+// Data Sources View
+"data_sources" = "Data Sources";
+"done" = "Done";
+"official_information" = "Official Information";
+"data_origins" = "Data Origins";
+"data_origins_body" = "This application utilizes public health data provided by the Generalitat de Catalunya through the SIVIC (Sistema d'Informació de Vigilància d'Infeccions a Catalunya) platform.";
+"accuracy_notice" = "Accuracy Notice";
+"accuracy_notice_body" = "While we strive to provide the most current information, the data is subject to reporting delays and updates from health authorities. This app is for informational purposes and does not constitute medical advice.";
+"direct_citations" = "Direct Citations & Sources";
+"sivic_portal" = "SIVIC Official Portal";
+"respiratory_dataset" = "Respiratory Infections Dataset";
+"microbiology_dataset" = "Microbiology Dataset (Primary Care)";
+"soda_footnote" = "Data is fetched via SODA (Socrata Open Data API) v3.";
+"medical_disclaimer" = "Medical Disclaimer";
+"medical_disclaimer_body" = "If you are experiencing symptoms or have health concerns, please consult a qualified healthcare professional or call the official health services (061 in Catalonia).";
+
+// Comparison View
+"viral_intelligence" = "Viral Intelligence";
+"reconnect" = "Reconnect";
+"up_to_date" = "Up to date";
+"active_cases" = "%@ active cases"; // Format string for number
+"vs_last_year" = "vs last year";
+"past_label" = "Past: %@";
+"now_label" = "Now: %@";
+
+// Predictive Trends View
+"ai_predictions" = "AI Predictions";
+"analyzing_ml" = "Analyzing with ML...";
+"no_sufficient_data" = "No sufficient data for predictions.";
+"last_updated" = "Last updated: %@";
+"new_records" = "+%d new records";
+"trend_analysis_title" = "8-Week Trend Analysis";
+"trend_analysis_subtitle" = "Overall pattern across recent data";
+"trend_note" = "Note: Individual viruses may show different week-to-week trends";
+"confidence" = "Confidence";
+"weekly_forecast" = "Weekly Forecast";
+"last_week" = "LAST WEEK";
+"three_months" = "3 MONTHS";
+"next_week" = "NEXT WEEK";
+"forecast_label" = "FORECAST";
+
+// Prediction Descriptions (Dynamic)
+"rapidly_increasing" = "Rapidly Increasing";
+"increasing" = "Increasing";
+"rapidly_decreasing" = "Rapidly Decreasing";
+"decreasing" = "Decreasing";
+"stable" = "Stable";
+"past_8_weeks" = "Past 8 weeks: %@";
+
+"high_inv" = "High"; // confidence high
+"medium_inv" = "Medium"; // confidence medium
+"low_inv" = "Low"; // confidence low
+
+// Trend Analysis (MLPredictor)
+"cases_rising_rapidly" = "Cases rising rapidly (avg +%@/week)";
+"cases_increasing" = "Cases increasing (avg +%@/week)";
+"cases_stable" = "Cases relatively stable";
+"cases_decreasing" = "Cases decreasing (avg -%@/week)";
+"cases_dropping_rapidly" = "Cases dropping rapidly (avg -%@/week)";
+
+// --- Previous Keys ---
+
+// Data Sources
+"lab_data" = "Lab Data";
+"primary_care" = "Primary Care";
+
+// Location
+"location_error" = "Location Error";
+"open_settings" = "Open Settings";
+
+// Loading States
+"syncing_data" = "Syncing spatial viral data...";
+"preparing_query" = "Preparing query...";
+"fetching_db" = "Fetching from database...";
+"processing_data" = "Processing data...";
+"finalizing" = "Finalizing results...";
+"complete" = "Complete!";
+"processing_viral" = "Processing viral intelligence...";
+
+// Empty States
+"no_lab_data" = "No Lab Data Available";
+"no_primary_care_data" = "No Primary Care Data Available";
+"try_longer_range" = "Try selecting a longer time range\n(e.g., 2 weeks or 1 month)";
+"no_trend_data" = "No trend data available.";
+"ok" = "OK";
+
+// Controls & Headers
+"source" = "Source";
+"all" = "All";
+"time_range" = "Time Range";
+"age_group" = "Age Group:";
+"virus_trends" = "Virus Trends";
+"total_cases" = "Total Cases: %@";
+
+// Notifications
+"notifications_enabled" = "Notifications Enabled ✅";
+"notifications_body" = "You'll receive alerts for high-risk virus activity.";
+
+// Date Filters
+"1W" = "1W";
+"2W" = "2W";
+"3W" = "3W";
+"1M" = "1M";
+"2M" = "2M";
+"3M" = "3M";
+
+// Profiles
+"profiles_title" = "Profiles";
+"no_profiles_title" = "No Profiles";
+"no_profiles_desc" = "Add family members to get notified when virus risks rise for their age group.";
+"add_first_profile" = "Add Profile";
+"profile_details" = "Profile Details";
+"name" = "Name";
+"age" = "Age";
+"notification_hint" = "We will notify you if cases rise significantly for this age group.";
+"add_profile" = "Add Profile";
